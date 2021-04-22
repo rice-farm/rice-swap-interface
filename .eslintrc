@@ -12,7 +12,7 @@
     "jest": true
   },
 
-  "extends": "@pancakeswap-libs/eslint-config-pancake",
+  "extends": "@ricefarm/eslint-config-rice",
   "rules": {
     "no-console": ["warn", { "allow": ["info", "warn", "error"] }],
     "no-plusplus": 0,

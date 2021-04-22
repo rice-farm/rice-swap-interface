@@ -2095,20 +2095,6 @@
     mkdirp "^1.0.4"
     rimraf "^2.7.1"
 
-"@pancakeswap-libs/eslint-config-pancake@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@pancakeswap-libs/eslint-config-pancake/-/eslint-config-pancake-1.0.0.tgz#da5c17842d1cb0d575bca3de0c9404386c386151"
-  integrity sha512-/rE1jQsgDV+jUvYIJKzIlLGFSYwku8K67nprRMmsbhdG+FHdBJnclIyIbVY1NnVtuwGaP+uBQiS/tn6Zhiyx8w==
-  dependencies:
-    "@typescript-eslint/eslint-plugin" "^4.7.0"
-    "@typescript-eslint/parser" "^4.7.0"
-    eslint-config-airbnb "^18.2.1"
-    eslint-config-prettier "^6.15.0"
-    eslint-plugin-import "^2.22.1"
-    eslint-plugin-jsx-a11y "^6.4.1"
-    eslint-plugin-react "^7.21.5"
-    eslint-plugin-react-hooks "^4.0.0"
-
 "@pancakeswap-libs/sdk@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@pancakeswap-libs/sdk/-/sdk-1.0.1.tgz#602e6da34fd5bde0f3c869f9abe63bb5f4aaf063"
@@ -2198,6 +2184,20 @@
     redux "^4.0.0"
     redux-thunk "^2.3.0"
     reselect "^4.0.0"
+
+"@ricefarm/eslint-config-rice@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@ricefarm/eslint-config-rice/-/eslint-config-rice-1.0.0.tgz#ade282b61800a9ac16f974690f7240c0ed52c8a4"
+  integrity sha512-DOajwtxPe3BgRR8olK5P90NLkg9MkVItSMtgNdD3p3TevsW1cp0kU/BNzRQaK9wQZMccbtgs8JF5NkgKT3pPeQ==
+  dependencies:
+    "@typescript-eslint/eslint-plugin" "^4.7.0"
+    "@typescript-eslint/parser" "^4.7.0"
+    eslint-config-airbnb "^18.2.1"
+    eslint-config-prettier "^6.15.0"
+    eslint-plugin-import "^2.22.1"
+    eslint-plugin-jsx-a11y "^6.4.1"
+    eslint-plugin-react "^7.21.5"
+    eslint-plugin-react-hooks "^4.0.0"
 
 "@rollup/plugin-node-resolve@^7.1.1":
   version "7.1.3"
