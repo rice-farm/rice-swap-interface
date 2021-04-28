@@ -21,6 +21,7 @@ const config: MenuEntry[] = [
       },
     ],
   },
+  /* 
   {
     label: 'Farms',
     icon: 'FarmIcon',
@@ -50,6 +51,7 @@ const config: MenuEntry[] = [
     icon: 'TeamBattleIcon',
     href: 'https://pancakeswap.finance/competition',
   },
+  */
   {
     label: 'Teams & Profile',
     icon: 'GroupsIcon',
