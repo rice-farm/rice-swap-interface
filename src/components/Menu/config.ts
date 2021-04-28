@@ -51,7 +51,7 @@ const config: MenuEntry[] = [
     icon: 'TeamBattleIcon',
     href: 'https://pancakeswap.finance/competition',
   },
-  */
+  
   {
     label: 'Teams & Profile',
     icon: 'GroupsIcon',
@@ -97,6 +97,7 @@ const config: MenuEntry[] = [
     icon: 'IfoIcon',
     href: 'https://pancakeswap.finance/ifo',
   },
+  */
   {
     label: 'More',
     icon: 'MoreIcon',
