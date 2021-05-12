@@ -1,5 +1,5 @@
 {
-  "name": "PancakeSwap Default List",
+  "name": "RiceFarm Default List",
   "timestamp": "2021-03-17T09:56:23Z",
   "version": {
     "major": 2,
@@ -7,9 +7,17 @@
     "patch": 0
   },
   "tags": {},
-  "logoURI": "https://exchange.pancakeswap.finance/images/pancakeswap.png",
+  "logoURI": "https://teslasafe.ricefarm.fi/images/teslasafe.png",
   "keywords": ["pancake", "default"],
   "tokens": [
+    {
+      "name": "TelsaSafe Token",
+      "symbol": "TeslaSafe",
+      "address": "0x3504de9e61FDFf2Fc70f5cC8a6D1Ee493434C1Aa",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://teslasafe.ricefarm.fi/images/coins/0x3504de9e61FDFf2Fc70f5cC8a6D1Ee493434C1Aa.png"
+    },
     {
       "name": "WBNB Token",
       "symbol": "WBNB",
