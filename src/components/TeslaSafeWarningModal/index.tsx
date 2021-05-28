@@ -20,7 +20,7 @@ const StyledWarningIcon = styled(AlertTriangle)`
   stroke: ${({ theme }) => theme.colors.binance};
 `
 
-export default function SafeMoonWarningModal({ isOpen, onConfirm }: { isOpen: boolean; onConfirm: () => void }) {
+export default function TeslaSafeWarningModal({ isOpen, onConfirm }: { isOpen: boolean; onConfirm: () => void }) {
   const [understandChecked, setUnderstandChecked] = useState(false)
   const toggleUnderstand = useCallback(() => setUnderstandChecked((uc) => !uc), [])
 
@@ -31,22 +31,22 @@ export default function SafeMoonWarningModal({ isOpen, onConfirm }: { isOpen: bo
         <AutoColumn gap="lg">
           <AutoRow gap="6px">
             <StyledWarningIcon />
-            <Text>Notice for trading SafeMoon</Text>
+            <Text>Notice for trading TeslaSafe</Text>
           </AutoRow>
           <>
             <Text>
-              To trade SAFEMOON, you must click on the settings icon and{' '}
-              <strong>set your slippage tolerance to 12%+</strong>
+              To trade TeslaSafe, you must click on the settings icon and{' '}
+              <strong>set your slippage tolerance to 15%+</strong>
             </Text>
-            <Text>This is because SafeMoon taxes a 10% fee on each transaction.</Text>
-            <Text>• 5% fee = redistributed to all existing holders</Text>
-            <Text>• 5% fee = used to add liquidity</Text>
+            <Text>This is because TeslaSafe taxes a 14% fee on each transaction.</Text>
+            <Text>• 7% fee = redistributed to all existing holders</Text>
+            <Text>• 7% fee = used to add liquidity</Text>
           </>
           <RowBetween>
             <div>
               <label htmlFor="understand-checkbox" style={{ cursor: 'pointer', userSelect: 'none' }}>
                 <input
-                  id="understand-safeMoonWarning"
+                  id="understand-TeslaSafeWarning"
                   type="checkbox"
                   className="understand-checkbox"
                   checked={understandChecked}
@@ -56,7 +56,7 @@ export default function SafeMoonWarningModal({ isOpen, onConfirm }: { isOpen: bo
               </label>
             </div>
             <Button
-              id="confirm-safeMoonWarning"
+              id="confirm-TeslaSafeWarning"
               disabled={!understandChecked}
               variant="danger"
               style={{ width: '140px' }}

@@ -1,11 +1,11 @@
-import { MenuEntry } from '@pancakeswap-libs/uikit'
+import { MenuEntry } from '@ricefarm/uikit'
 
 const config: MenuEntry[] = [
-  {
-    label: 'Home',
-    icon: 'HomeIcon',
-    href: 'https://pancakeswap.finance/',
-  },
+  // {
+  //   label: 'Home',
+  //   icon: 'HomeIcon',
+  //   href: 'https://ricefarm.fi/',
+  // },
   {
     label: 'Trade',
     icon: 'TradeIcon',
@@ -21,6 +21,7 @@ const config: MenuEntry[] = [
       },
     ],
   },
+  /* 
   {
     label: 'Farms',
     icon: 'FarmIcon',
@@ -50,6 +51,7 @@ const config: MenuEntry[] = [
     icon: 'TeamBattleIcon',
     href: 'https://pancakeswap.finance/competition',
   },
+  
   {
     label: 'Teams & Profile',
     icon: 'GroupsIcon',
@@ -95,34 +97,39 @@ const config: MenuEntry[] = [
     icon: 'IfoIcon',
     href: 'https://pancakeswap.finance/ifo',
   },
+  */
   {
     label: 'More',
     icon: 'MoreIcon',
     items: [
+      // {
+      //   label: 'Contact',
+      //   href: 'https://docs.pancakeswap.finance/contact-us',
+      // },
+      // {
+      //   label: 'Voting',
+      //   href: 'https://voting.pancakeswap.finance',
+      // },
       {
-        label: 'Contact',
-        href: 'https://docs.pancakeswap.finance/contact-us',
+        label: "Github",
+        href: "https://github.com/rice-farm",
       },
       {
-        label: 'Voting',
-        href: 'https://voting.pancakeswap.finance',
+        label: 'TeslaSafe',
+        href: 'https://teslasafe.finance',
       },
       {
-        label: 'Github',
-        href: 'https://github.com/pancakeswap',
+        label: "TeslaSafe Github",
+        href: "https://github.com/tesla-safe",
       },
-      {
-        label: 'Docs',
-        href: 'https://docs.pancakeswap.finance',
-      },
-      {
-        label: 'Blog',
-        href: 'https://pancakeswap.medium.com',
-      },
-      {
-        label: 'Merch',
-        href: 'https://pancakeswap.creator-spring.com/',
-      },
+      // {
+      //   label: "Docs",
+      //   href: "https://docs.ricefarm.fi",
+      // },
+      // {
+      //   label: "Blog",
+      //   href: "https://pancakeswap.medium.com",
+      // },
     ],
   },
 ]

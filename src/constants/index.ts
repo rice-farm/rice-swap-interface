@@ -7,6 +7,8 @@ type ChainTokenList = {
   readonly [chainId in ChainId]: Token[]
 }
 
+// todo: add RICE here after deployed
+export const TS = new Token(ChainId.MAINNET, '0x3504de9e61FDFf2Fc70f5cC8a6D1Ee493434C1Aa', 9, 'TS', 'TeslaSafe Token')
 export const CAKE = new Token(ChainId.MAINNET, '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82', 18, 'CAKE', 'PancakeSwap Token')
 export const WBNB = new Token(ChainId.MAINNET, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'WBNB', 'Wrapped BNB')
 export const DAI = new Token(ChainId.MAINNET, '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3', 18, 'DAI', 'Dai Stablecoin')

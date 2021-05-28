@@ -1,7 +1,7 @@
-# Contributing to the Pancake ecosystem 🥞
+# Contributing to the Rice Ecosystem 🍚
 
 Thanks for taking the time to contribute !
-You can start by reading our [Contribution guidelines](https://docs.pancakeswap.finance/code/contributing) first.
+You can start by reading our [Contribution guidelines](https://docs.ricefarm.fi/code/contributing) first.
 
 ## Setup
 
