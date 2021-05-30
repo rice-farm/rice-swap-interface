@@ -116,7 +116,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'TeslaSafe',
-        href: 'https://teslasafe.finance',
+        href: 'https://teslasafe.fi',
       },
       {
         label: "TeslaSafe Github",
