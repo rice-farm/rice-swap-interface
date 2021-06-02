@@ -92,27 +92,28 @@ const config: MenuEntry[] = [
       },
     ],
   },
+   */
   {
     label: 'IFO',
     icon: 'IfoIcon',
-    href: 'https://pancakeswap.finance/ifo',
+    href: 'https://ricefarm.fi/ifo',
   },
-  */
+  {
+    label: 'Referrals',
+    icon: 'ReferralIcon',
+    href: 'https://ricefarm.fi/referrals',
+  },
   {
     label: 'More',
     icon: 'MoreIcon',
     items: [
-      // {
-      //   label: 'Contact',
-      //   href: 'https://docs.pancakeswap.finance/contact-us',
-      // },
-      // {
-      //   label: 'Voting',
-      //   href: 'https://voting.pancakeswap.finance',
-      // },
       {
         label: "Github",
         href: "https://github.com/rice-farm",
+      },
+      {
+        label: 'Docs',
+        href: 'https://docs.ricefarm.fi',
       },
       {
         label: 'TeslaSafe',
@@ -121,15 +122,7 @@ const config: MenuEntry[] = [
       {
         label: "TeslaSafe Github",
         href: "https://github.com/tesla-safe",
-      },
-      // {
-      //   label: "Docs",
-      //   href: "https://docs.ricefarm.fi",
-      // },
-      // {
-      //   label: "Blog",
-      //   href: "https://pancakeswap.medium.com",
-      // },
+      }
     ],
   },
 ]
