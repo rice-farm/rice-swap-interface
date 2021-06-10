@@ -280,11 +280,11 @@ const Swap = () => {
   )
 
   // default output currency to teslaSafe
-  const defaultOutputCurrency = useCurrency('0x3504de9e61FDFf2Fc70f5cC8a6D1Ee493434C1Aa')
+  // const defaultOutputCurrency = useCurrency('0x3504de9e61FDFf2Fc70f5cC8a6D1Ee493434C1Aa')
 
-  useEffect(() => {
-    handleOutputSelect(defaultOutputCurrency)
-  }, [defaultOutputCurrency, handleOutputSelect])
+  // useEffect(() => {
+  //   handleOutputSelect(defaultOutputCurrency)
+  // }, [defaultOutputCurrency, handleOutputSelect])
 
   return (
     <>
