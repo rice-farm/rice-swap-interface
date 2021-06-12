@@ -1,11 +1,11 @@
 import { MenuEntry } from '@ricefarm/uikit'
 
 const config: MenuEntry[] = [
-  // {
-  //   label: 'Home',
-  //   icon: 'HomeIcon',
-  //   href: 'https://ricefarm.fi/',
-  // },
+  {
+    label: 'Home',
+    icon: 'HomeIcon',
+    href: 'https://ricefarm.fi/',
+  },
   {
     label: 'Trade',
     icon: 'TradeIcon',
@@ -21,7 +21,6 @@ const config: MenuEntry[] = [
       },
     ],
   },
-
   {
     label: 'Farms',
     icon: 'FarmIcon',
