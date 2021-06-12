@@ -42,35 +42,6 @@ const config: MenuEntry[] = [
   },
 },
 {
-  label: 'Collectibles',
-  icon: 'NftIcon',
-  href: 'https://pancakeswap.finance/nft',
-},
-{
-  label: 'Team Battle',
-  icon: 'TeamBattleIcon',
-  href: 'https://pancakeswap.finance/competition',
-},
-
-{
-  label: 'Teams & Profile',
-  icon: 'GroupsIcon',
-  items: [
-    {
-      label: 'Leaderboard',
-      href: 'https://pancakeswap.finance/teams',
-    },
-    {
-      label: 'Task Center',
-      href: 'https://pancakeswap.finance/profile/tasks',
-    },
-    {
-      label: 'Your Profile',
-      href: 'https://pancakeswap.finance/profile',
-    },
-  ],
-},
-{
   label: 'Info',
   icon: 'InfoIcon',
   items: [
@@ -102,6 +73,20 @@ const config: MenuEntry[] = [
     label: 'Referrals',
     icon: 'ReferralIcon',
     href: 'https://ricefarm.fi/referrals',
+  },
+  {
+    label: 'TechRate Audits',
+    icon: 'AuditIcon',
+    items: [
+      {
+        label: 'RiceFarm Audit',
+        href: 'https://teslasafe.fi/pdf/TechRateRiceFarmAudit.pdf',
+      },
+      {
+        label: 'TeslaSafe Audit',
+        href: 'https://teslasafe.fi/pdf/TeslaSafe_Audit.pdf',
+      },
+    ],
   },
   {
     label: 'More',
