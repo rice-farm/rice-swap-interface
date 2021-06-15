@@ -21,6 +21,7 @@ const Menu: React.FC = (props) => {
 
   return (
     <UikitMenu
+      coin='TeslaSafe'
       links={links}
       account={account as string}
       login={login}
