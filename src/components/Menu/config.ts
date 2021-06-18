@@ -107,6 +107,10 @@ const config: MenuEntry[] = [
     icon: 'MoreIcon',
     items: [
       {
+        label: 'Chart',
+        href: 'https://charts.bogged.finance/?token=0xC4eEFF5aab678C3FF32362D80946A3f5De4a1861',
+      },
+      {
         label: "Github",
         href: "https://github.com/rice-farm",
       },
