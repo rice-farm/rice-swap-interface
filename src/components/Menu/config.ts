@@ -45,6 +45,11 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: 'https://ricefarm.fi/pools',
   },
+  {
+    label: 'Vaults',
+    icon: 'VaultIcon',
+    href: 'https://ricefarm.fi/vaults',
+  },
   /*
 {
   label: 'Lottery',
