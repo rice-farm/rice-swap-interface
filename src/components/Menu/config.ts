@@ -87,7 +87,7 @@ const config: MenuEntry[] = [
     label: 'IFO',
     icon: 'IfoIcon',
     href: 'https://ricefarm.fi/ifo',
-    status: menuStatus.SOON
+    status: menuStatus.LIVE
   },
   {
     label: 'Referrals',
