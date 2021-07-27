@@ -1,4 +1,4 @@
-import { MenuEntry, menuStatus } from '@ricefarm/uikit'
+import { MenuEntry, /* menuStatus */ } from '@ricefarm/uikit'
 
 const config: MenuEntry[] = [
   {
@@ -87,7 +87,6 @@ const config: MenuEntry[] = [
     label: 'IFO',
     icon: 'IfoIcon',
     href: 'https://ricefarm.fi/ifo',
-    status: menuStatus.LIVE
   },
   {
     label: 'Referrals',
