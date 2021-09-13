@@ -1,16 +1,13 @@
 import { useEffect } from 'react'
-import useGetPriceData from './useGetPriceData'
-import { TS } from '../constants' // todo: change back to RICE when time comes
+import useGetCakeBusdLpPrice from 'utils/useGetCakeBusdLpPrice'
 
 const useGetDocumentTitlePrice = () => {
-  const priceData = useGetPriceData()
-
-  const cakePriceUsd = priceData ? parseFloat(priceData.data[TS.address].price) * 10**9 : 0
+  const cakePriceBusd = useGetCakeBusdLpPrice()
 
   const cakePriceUsdString =
-    Number.isNaN(cakePriceUsd) || cakePriceUsd === 0
+    Number.isNaN(cakePriceBusd) || cakePriceBusd === 0 || !cakePriceBusd
       ? ''
-      : ` - $${cakePriceUsd.toLocaleString(undefined, {
+      : ` - $${cakePriceBusd.toLocaleString(undefined, {
           minimumFractionDigits: 3,
           maximumFractionDigits: 3,
         })}`
